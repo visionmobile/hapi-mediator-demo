@@ -1,0 +1,28 @@
+{
+  "name": "hapi-mediator-demo",
+  "version": "1.0.0",
+  "description": "Illustrating the use of the mediator pattern with Hapi.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visionmobile/hapi-mediator-demo.git"
+  },
+  "author": {
+    "name": "Dimitrios C. Michalakos",
+    "email": "dimitris@jmike.gr",
+    "url": "https://github.com/jmike"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/visionmobile/hapi-mediator-demo/issues"
+  },
+  "homepage": "https://github.com/visionmobile/hapi-mediator-demo#readme",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "hapi": "^9.0.3",
+    "require-directory": "^2.1.1"
+  }
+}
