@@ -11,7 +11,7 @@ server.register([mediators.FooBar], function (err) {
     return;
   }
 
-  server.route({ method: 'GET', path: '/ping', handler: controllers.Ping.pong });
+  server.route({ method: 'GET', path: '/ping', config: controllers.Ping.pong });
 });
 
 // start the server
